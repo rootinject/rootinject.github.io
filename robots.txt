@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Pastikan semua konten bisa di-crawl
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Block file yang tidak perlu
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap
+Sitemap: https://rootinject.github.io/sitemap.xml
